@@ -30,13 +30,12 @@
 ## set target device to hammerhead instead of trustme_hammerhead
 ## otherwise jf-common would not include necessary subdirs in its Android.mk 
 TARGET_DEVICE := hammerhead
-HAVE_SELINUX := false
 
 # we build our kernel outside the tree
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_KERNEL := true
 
-TARGET_USES_LOGD := false
+#TARGET_USES_LOGD := false
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE :=  350000000
 #BOARD_USERDATAIMAGE_PARTITION_SIZE := 2000
