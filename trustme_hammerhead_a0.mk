@@ -32,9 +32,9 @@ PRODUCT_COPY_FILES := \
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/fraunhofer/trustme_generic/trustme_generic_a0.mk)
 
-# overwrite dalvik parameters with values for a 521MB low-ram device
-$(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
-PRODUCT_PROPERTY_OVERRIDES += ro.config.low_ram=true
+## overwrite dalvik parameters with values for a 521MB low-ram device
+#$(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
+#PRODUCT_PROPERTY_OVERRIDES += ro.config.low_ram=true
 
 # Inherit from hammerhead device
 $(call inherit-product, device/lge/hammerhead/device.mk)
