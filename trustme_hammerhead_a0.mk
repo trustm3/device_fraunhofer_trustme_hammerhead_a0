@@ -57,3 +57,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # include binary blobs
 $(call inherit-product-if-exists, vendor/lge/hammerhead/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/lge/hammerhead/hammerhead-vendor.mk)
+
+PRODUCT_COPY_FILES += \
+    device/fraunhofer/trustme_hammerhead_a0/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
