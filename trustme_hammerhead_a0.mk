@@ -46,8 +46,9 @@ TARGET_PREBUILT_KERNEL := device/fraunhofer/trustme_hammerhead_a0/dummy_kernel
 PRODUCT_NAME := trustme_hammerhead_a0
 PRODUCT_DEVICE := trustme_hammerhead_a0
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := trust-me Android0 for hammerhead
+PRODUCT_MODEL := trustme_hammerhead_a0
 PRODUCT_MANUFACTURER := fraunhofer
+TRUSTME_HARDWARE := hammerhead
 
 #DEVICE_PACKAGE_OVERLAYS += device/fraunhofer/trustme_hammerhead_a0/overlay
 
